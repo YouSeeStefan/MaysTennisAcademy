@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="nl">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="tennis, tennisschool, badhoevedorp, tennisles, may, academy, les, indoor, serne">
+    
+    <title>Contact</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="shortcut icon" type="image/png" href="https://goo.gl/WQbYxg"/>
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <a href="index" style="text-decoration: none">
+        <div class="it">
+            <h1 class="title">Mays Tennis Academy</h1>
+        </div>
+    </a>
+    
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt-menu">☰ &nbsp; Mays Tennis Academy</a>
+        </div>
+        <nav>
+        <ul>
+            <li><a class="active" href="index">Home</a></li>
+            <!-- <li><a href="#">Tennisschool</a></li> -->
+
+            <li class="submenu">
+                <a href="#">Tennisschool<b class="icon">▾</b></a>
+                <ul class="children">
+                <li><a href="visie">Visie </a></li>
+                    <li><a href="trainers">Trainers </a></li>
+                </ul>
+            </li>
+
+            <!-- <li><a href="inschrijven.html">Inschrijving</a></li> -->
+            
+            <li class="submenu">
+                <a href="#">Inschrijving<b class="icon">▾</b></a>
+                <ul class="children">
+                <li><a href="inschrijven">Inschrijving </a></li>
+                    <li><a href="lesdata">Lesdata </a></li>
+                    <li><a href="tarieven">Tarieven </a></li>
+                    <li><a href="lesreglement">Lesreglement </a></li>
+                </ul>
+            </li>
+
+            <li><a href="locatie">Locatie</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+	<div class="wrapper_form">
+        <!-- <section class="contactform contactform2">
+            <h2>May Serné</h2><br>
+            <img src="images/may_contact.jpg" alt=""><br><br>
+            <p><b>Mobiel: </b>06-45262280</p>
+        </section> -->
+
+        <section>
+    	    <h2>Contactpersoonformulier</h2>
+            <p><i>Verstuur een e-mail. Alle velden met een * zijn verplicht.</i></p><br>
+    	    <form method="post" action="js/mail/contactTo.php">
+
+    	    	<label>Naam: *</label>
+                <input name="naam" type="text" class="text" placeholder="Naam" required><br>
+                
+                <label>E-mail: *</label>
+                <input name="email" type="email" class="text" placeholder="Email" required><br>
+
+                <label>Onderwerp: *</label>
+                <input name="subject" type="text" class="text" placeholder="Onderwerp" required><br>
+
+                <label>Bericht: *</label>
+                <textarea name="comment" rows="6" cols="41" class="area" placeholder="Schrijf hier u bericht..." required></textarea><br>
+
+                <label>Mail kopie naar u zelf: </label>
+    	        <input name="check[]" type="checkbox" class="text" value="ja">
+
+                <div class="btn-con">
+                    <input type="submit" class="button">
+            </div>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>Made by <a href="http://webstudiostefan.nl/" target="_blank">Stefan Stekelenburg</a></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,525 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FEFEFE;
+}
+
+body::-webkit-scrollbar { 
+  display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+div.it {
+	background-color: #F3F3F3;
+	height: 75px;
+	border-bottom: 2px solid #30A0B4;
+}
+
+.title {
+	max-width: 1000px;
+	z-index: 1000;
+	margin: 20px auto;
+	width: 95%;
+	margin-top: 0px;
+	padding: 10px;
+	font-size: 40px;
+	color: #42CADB;
+}
+
+.wrapper {
+	max-width: 1000px;
+	z-index: 1000;
+	margin: 20px auto;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.wrapper_home {
+	max-width: 1000px;
+	z-index: 1000;
+	margin: 20px auto;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+}
+
+.wrapper_form {
+	max-width: 1000px;
+	width: 500px;
+	z-index: 1000;
+	margin: 20px auto;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.wrapper_visie {
+	max-width: 1000px;
+	z-index: 1000;
+	margin: 20px auto;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.group_form {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.text_home {
+	margin-top: 30px;
+}
+
+.p_text {
+	margin-top: 20px;
+}
+
+.trainers {
+	margin-bottom: 30px;
+}
+
+.trainer {
+	float: left;
+}
+
+.trainer_img {
+	height: 250px;
+	width: 200px;
+	border: 1px;
+	margin-right: 20px;
+}
+
+.regelement {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.img_visie {
+	margin-top: 20px;
+	width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;   
+    color: black; 
+}
+
+table.table, th.th {
+    border: none;
+    border-collapse: collapse;
+}
+
+th.th {
+    text-align: left;    
+}
+
+.indexMail {
+	text-decoration: none;
+}
+
+#access li a:hover #someAbsolutePositioningDiv
+{
+  display: block;    
+  position: absolute;
+  top: some value;
+  left: some value;
+}
+
+#someAbsolutePositioningDiv
+{
+  display: none;
+}
+
+textarea {
+	outline: none;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	height: 150px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: none;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input.pw {
+    -webkit-text-security: disc;
+}
+
+select.select {
+    width: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login_error {
+	color: red;
+}
+
+select {
+	-webkit-appearance: none; 
+	-moz-appearance: none;
+	appearance: none;
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.print {
+	float: right;
+}
+
+/*-------------------- Lesdata --------------------*/
+
+.MDWD {
+	display: none;
+}
+
+.box {
+    color: #fff;
+    display: none;
+    margin-top: 20px;
+}
+
+/*-------------------- Slideshow --------------------*/
+
+.mySlides {
+	display: none;
+}
+
+.slideImages {
+	width: 100%;
+}
+
+div.slider {
+	max-width:500px;
+}
+
+/*-------------------- Footer --------------------*/
+
+footer {
+    clear: both;
+    background: #30A0B4;
+    padding: 4px 0;
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0px auto;
+    color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	color: #0C6A87;
+}
+
+/*-------------------- Header & Nav --------------------*/
+
+.menu_bar {
+	display: none;
+}
+
+header {
+	width: 100%;
+}
+
+header nav {
+	background: #30A0B4;
+	z-index: 1000;
+	margin: 20px auto;
+	max-width: 1000px;
+	width: 95%;
+	margin-top: 0px;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	display: inline-block;
+	position: relative;
+}
+
+header nav ul li:hover {
+	background: #0C6A87;
+}
+
+header nav ul li a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+}
+
+header nav ul li a span {
+    margin-right: 0px;
+}
+
+header nav ul li:hover .children {
+	display: block;
+}
+
+header nav ul li .children {
+	display: none;
+	background: #011826;
+	position: absolute;
+	width: 150%;
+	z-index: 1000;
+}
+
+header nav ul li .children li {
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+header nav ul li .children li a {
+	display: block;
+}
+
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top: 3px;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+header nav ul li .caret {
+	position: relative;
+	top: 3px;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+.icon {
+	float: right;
+}
+
+/*-------------------- Mobiel --------------------*/
+
+@media screen and (max-width: 800px) {
+		body {
+			padding-top: 44px;
+		}
+
+		.active {
+			background: #30A0B4;
+		}
+
+		.it {
+			display: none;
+		}
+
+		.wrapper {
+			width: 100%;
+		}
+
+		.wrapper_form {
+			width: 100%;
+		}
+
+		.wrapper_visie {
+			width: 100%;
+		}
+
+		select {
+			width: 100%;
+		}
+
+		select.select {
+			width: 100%;
+		}
+
+		.trainer {
+			float: none;
+		}
+
+		.trainers {
+			margin-bottom: 0px;
+		}
+
+		.trainer_img {
+			height: 100%;
+			max-height: 450px;
+			width: 100%;
+		}
+
+		.MDWD {
+			display: block;
+		}
+
+		#sheet {
+			display: none;	
+		}
+
+    	.scroll {
+		    width: 100%;
+		    overflow-x: scroll;
+		    overflow-y: hidden;
+		    border-right: 1px solid black; 
+		}
+
+	    /*--------- Header-Nav ---------*/
+
+		.header-nav {
+			display: none;
+		}
+
+		/*--------- Header & Nav ---------*/
+
+		.menu_bar {
+	        display: block;
+	        width: 100%;
+	        position: fixed;
+	        top: 0;
+	        background: #30A0B4;
+	        border-bottom: 1px solid rgba(255, 255, 255, .5);
+	    }
+
+		.menu_bar .bt-menu {
+	        display: block;
+	        padding: 10px;
+	        color: white;
+	        overflow: hidden;
+	        font-size: 20px;
+	        font-weight: bold;
+	        text-decoration: none;
+	        position: relative;
+	    }
+
+		.menu_bar span {
+	        float: right;
+	        font-size: 40px;
+	        overflow: hidden;
+	    }
+
+		header nav {
+			width: 60%;
+			height: calc(100% - 43px);
+			position: fixed;
+			right: 100%;
+			margin: 0;
+			overflow: scroll;
+		}
+
+		header nav ul li {
+	        display: block;
+	        border-bottom: 1px solid rgba(255, 255, 255, .5);
+	    }
+	    
+	    header nav ul li a {
+	    	display: block;
+	    }
+
+	    header nav ul li:hover .children {
+	    	display: none;
+	    }
+
+	    header nav ul li .children {
+	    	width: 100%;
+	    	position: relative;
+	    }
+
+		header nav ul li .children li a {
+			margin-left: 20px;
+		}
+
+		header nav ul li .caret {
+			float: right;
+		}
+}

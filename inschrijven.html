@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html lang="nl">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	
+	<meta name="robots" content="index, follow">
+    <meta name="keywords" content="tennis, tennisschool, badhoevedorp, tennisles, may, academy, les, indoor, serne">
+
+    <title>Inschrijving</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="shortcut icon" type="image/png" href="https://goo.gl/WQbYxg"/>
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+</head>
+
+<body>
+    <a href="index" style="text-decoration: none">
+        <div class="it">
+            <h1 class="title">Mays Tennis Academy</h1>
+        </div>
+    </a>
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt-menu">☰ &nbsp; Mays Tennis Academy</a>
+        </div>
+        <nav>
+        <ul>
+            <li><a class="active" href="index">Home</a></li>
+            <!-- <li><a href="#">Tennisschool</a></li> -->
+
+            <li class="submenu">
+                <a href="#">Tennisschool<b class="icon">▾</b></a>
+                <ul class="children">
+                <li><a href="visie">Visie </a></li>
+                    <li><a href="trainers">Trainers </a></li>
+                </ul>
+            </li>
+
+            <!-- <li><a href="inschrijven.html">Inschrijving</a></li> -->
+            
+            <li class="submenu">
+                <a href="#">Inschrijving<b class="icon">▾</b></a>
+                <ul class="children">
+                <li><a href="inschrijven">Inschrijving </a></li>
+                    <li><a href="lesdata">Lesdata </a></li>
+                    <li><a href="tarieven">Tarieven </a></li>
+                    <li><a href="lesreglement">Lesreglement </a></li>
+                </ul>
+            </li>
+
+            <li><a href="locatie">Locatie</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+	<div class="wrapper_form">
+	    <h2>Inschrijfformulier</h2>
+	    <form method="post" action="js/mailTo.php">
+
+	    <h3 class="group_form">Prive</h3>
+	        <label>Roepnaam: </label>
+	        <input name="Roepnaam" type="text" class="text" placeholder="Roepnaam" required autocomplete="off">
+
+	        <label>Voorletters: </label>
+	        <input name="Voorletters" type="text" class="text" placeholder="Voorletters" required autocomplete="off">
+
+	        <label>Tussenvoegsels: </label>
+	        <input name="Tussenvoegsels" type="text" class="text" placeholder="Tussenvoegsels" autocomplete="off">
+
+	        <label>Achternaam: </label>
+	        <input name="Achternaam" type="text" class="text" placeholder="Achternaam" required autocomplete="off"><br><br>
+
+	        <label for="Gestacht">Gestacht: </label>
+	        <input name="Gestacht" type="radio" class="text" value="Man" required autocomplete="off"> Man
+	        <input name="Gestacht" type="radio" class="text" value="Vrouw" autocomplete="off"> Vrouw<br><br>
+
+	        <label>Geboorte datum: </label><br>
+	        <select class="select" name="Geboorte_datum1" required>
+	          	<option> - Dag - </option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+	        </select>
+			<select class="select" name="Geboorte_datum2" required>
+		        <option> - Maand - </option>
+				<option value=" - 01 - ">Januari</option>
+				<option value=" - 02 - ">Februari</option>
+				<option value=" - 03 - ">Maart</option>
+				<option value=" - 04 - ">April</option>
+				<option value=" - 05 - ">Mei</option>
+				<option value=" - 06 - ">Juni</option>
+				<option value=" - 07 - ">Juli</option>
+				<option value=" - 08 - ">Augustus</option>
+				<option value=" - 09 - ">September</option>
+				<option value=" - 10 - ">Oktober</option>
+				<option value=" - 11 - ">November</option>
+				<option value=" - 12 - ">December</option>
+			</select>
+			<select class="select" name="Geboorte_datum3">
+				<option> - Year - </option>
+				<option value="2000">2000</option>
+				<option value="1999">1999</option>
+				<option value="1998">1998</option>
+				<option value="1997">1997</option>
+				<option value="1996">1996</option>
+				<option value="1995">1995</option>
+				<option value="1994">1994</option>
+				<option value="1993">1993</option>
+				<option value="1992">1992</option>
+				<option value="1991">1991</option>
+				<option value="1990">1990</option>
+				<option value="1989">1989</option>
+				<option value="1988">1988</option>
+				<option value="1987">1987</option>
+				<option value="1986">1986</option>
+				<option value="1985">1985</option>
+				<option value="1984">1984</option>
+				<option value="1983">1983</option>
+				<option value="1982">1982</option>
+				<option value="1981">1981</option>
+				<option value="1980">1980</option>
+				<option value="1979">1979</option>
+				<option value="1978">1978</option>
+				<option value="1977">1977</option>
+				<option value="1976">1976</option>
+				<option value="1975">1975</option>
+				<option value="1974">1974</option>
+				<option value="1973">1973</option>
+				<option value="1972">1972</option>
+				<option value="1971">1971</option>
+				<option value="1970">1970</option>
+				<option value="1969">1969</option>
+				<option value="1968">1968</option>
+				<option value="1967">1967</option>
+				<option value="1966">1966</option>
+				<option value="1965">1965</option>
+				<option value="1964">1964</option>
+				<option value="1963">1963</option>
+				<option value="1962">1962</option>
+				<option value="1961">1961</option>
+				<option value="1960">1960</option>
+				<option value="1959">1959</option>
+				<option value="1958">1958</option>
+				<option value="1957">1957</option>
+				<option value="1956">1956</option>
+				<option value="1955">1955</option>
+				<option value="1954">1954</option>
+				<option value="1953">1953</option>
+				<option value="1952">1952</option>
+				<option value="1951">1951</option>
+				<option value="1950">1950</option>
+				<option value="1949">1949</option>
+				<option value="1948">1948</option>
+				<option value="1947">1947</option>	
+			</select><br><br>
+
+			<hr>
+
+	        <h3 class="group_form">Adres</h3>
+	        
+	        <label>Adres: </label>
+	        <input name="Adres" type="text" class="text" placeholder="Adres" required autocomplete="off">
+
+	        <label>Postcode: </label>
+	        <input name="Postcode" type="text" class="text" placeholder="Postcode" required autocomplete="off">
+
+	        <label>Woonplaats: </label>
+	        <input name="Woonplaats" type="text" class="text" placeholder="Woonplaats" required autocomplete="off">
+
+	        <label>Telefoon vast: </label>
+	        <input name="Telefoon_vast" type="number" class="text" placeholder="Telefoon vast" required autocomplete="off">
+
+	        <label>Telefoon mobiel: </label>
+	        <input name="Telefoon_mobiel" type="number" class="text" placeholder="Telefoon mobiel" required autocomplete="off">
+
+	        <label>E-mail: </label>
+	        <input name="email" type="email" class="text" placeholder="E-mail" required autocomplete="off"><br><br>
+
+			<hr>
+
+	        <h3 class="group_form">Sportieve ervaring</h3>
+	        
+	        <label>Niveau: </label>
+	        <input name="Niveau" type="text" class="text" placeholder="Niveau" autocomplete="off">
+
+	        <label>Aantal jaren getennist: </label>
+	        <input name="Aantal_jaren_getennist" type="text" class="text" placeholder="Aantal jaren getennist" autocomplete="off">
+
+	        <label>Wil op les met: </label>
+	        <input name="Wil_op_les_met" type="text" class="text" placeholder="Wil op les met" autocomplete="off"><br><br>
+
+			<hr>
+
+	        <h3 class="group_form">Beschikbaarheid</h3>
+
+	        <label>Maandag: </label>
+	        <input name="Maandag" type="text" class="text" placeholder="Maandag" required autocomplete="off">
+
+	        <label>Dinsdag: </label>
+	        <input name="Dinsdag" type="text" class="text" placeholder="Dinsdag" required autocomplete="off">
+
+	        <label>Woensdag: </label>
+	        <input name="Woensdag" type="text" class="text" placeholder="Woensdag" required autocomplete="off">
+
+	        <label>Donderdag: </label>
+	        <input name="donderdag" type="text" class="text" placeholder="Donderdag" required  autocomplete="off"><br><br>
+
+			<hr>
+
+	        <h3 class="group_form">Locatie</h3>
+
+	        <label>Locatie: </label>
+	        <select name="Locatie" required>
+	          <option value="">Kies een locatie</option>
+	          <option value="Tom Schreursweg 12">Tom Schreursweg 12</option>
+	          <option value="Sloterweg 301">Sloterweg 301</option>
+	        </select>
+
+	        <label>Lid van geuzenveld: </label>
+	        <select name="Lid_van_geuzenveld" required>
+	          <option value="">Kies een optie</option>
+	          <option value="Wel lid van geuzenveld">Wel lid van geuzenveld</option>
+	          <option value="Geen lid van geuzenveld">Geen lid van geuzenveld</option>
+	        </select><br><br>
+
+	        <label>Soort les: </label>
+	        <input name="Soort_les" type="radio" class="text" value="Reguliere les" required autocomplete="off"> Reguliere les
+	        <input name="Soort_les" type="radio" class="text" value="Competitie training" autocomplete="off"> Competitie training<br><br>
+
+	        <label for="Akkoord">Ik ga akkoord met de algemene voorwaarden: </label>
+	        <input name="Akkoord" type="checkbox" class="text" value="Ja" required autocomplete="off">
+
+	        <div class="btn-con">
+	            <input type="submit" class="button">
+	        </div>
+	    </form>
+    </div>
+    <footer>
+        <p>Made by <a href="http://webstudiostefan.nl/" target="_blank">Stefan Stekelenburg</a></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
+
+</html>
